@@ -6,7 +6,16 @@
         <description>Recent content in Categories on Yannick</description>
         <generator>Hugo -- gohugo.io</generator>
         <language>zh-cn</language>
-        <copyright>Yannick</copyright><atom:link href="https://yannick-995.github.io/categories/index.xml" rel="self" type="application/rss+xml" /><item>
+        <copyright>Yannick</copyright>
+        <lastBuildDate>Thu, 22 Aug 2024 22:21:56 +0800</lastBuildDate><atom:link href="https://yannick-995.github.io/categories/index.xml" rel="self" type="application/rss+xml" /><item>
+        <title>Notes</title>
+        <link>https://yannick-995.github.io/categories/notes/</link>
+        <pubDate>Thu, 22 Aug 2024 22:21:56 +0800</pubDate>
+        
+        <guid>https://yannick-995.github.io/categories/notes/</guid>
+        <description></description>
+        </item>
+        <item>
         <title>Test</title>
         <link>https://yannick-995.github.io/categories/test/</link>
         <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
