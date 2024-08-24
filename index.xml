@@ -7,7 +7,23 @@
         <generator>Hugo -- gohugo.io</generator>
         <language>zh-cn</language>
         <copyright>Yannick</copyright>
-        <lastBuildDate>Sat, 24 Aug 2024 00:00:00 +0000</lastBuildDate><atom:link href="https://yannick-995.github.io/index.xml" rel="self" type="application/rss+xml" /><item>
+        <lastBuildDate>Sun, 25 Aug 2024 00:17:41 +0800</lastBuildDate><atom:link href="https://yannick-995.github.io/index.xml" rel="self" type="application/rss+xml" /><item>
+        <title>Computer System Fundamentals Course Experiment Study Bote</title>
+        <link>https://yannick-995.github.io/p/computer-system-fundamentals-course-experiment-study-bote/</link>
+        <pubDate>Sun, 25 Aug 2024 00:17:41 +0800</pubDate>
+        
+        <guid>https://yannick-995.github.io/p/computer-system-fundamentals-course-experiment-study-bote/</guid>
+        <description></description>
+        </item>
+        <item>
+        <title>The C programming language Study Note</title>
+        <link>https://yannick-995.github.io/p/the-c-programming-language-study-note/</link>
+        <pubDate>Sun, 25 Aug 2024 00:09:57 +0800</pubDate>
+        
+        <guid>https://yannick-995.github.io/p/the-c-programming-language-study-note/</guid>
+        <description></description>
+        </item>
+        <item>
         <title>关于</title>
         <link>https://yannick-995.github.io/%E5%85%B3%E4%BA%8E/</link>
         <pubDate>Sat, 24 Aug 2024 00:00:00 +0000</pubDate>
@@ -17,8 +33,7 @@
 &lt;p&gt;Written in Go, Hugo is an open source static site generator available under the &lt;a class=&#34;link&#34; href=&#34;https://github.com/gohugoio/hugo/blob/master/LICENSE&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
     &gt;Apache License 2.0.&lt;/a&gt;&lt;/p&gt;
 &lt;/blockquote&gt;
-&lt;p&gt;本博客用于梳理自己的学习成果，记录学习笔记。&lt;br&gt;
-目前学习计划：&lt;/p&gt;
+&lt;p&gt;本博客用于梳理自己的学习成果，记录学习笔记。目前学习计划：&lt;/p&gt;
 &lt;ol&gt;
 &lt;li&gt;C语言程序设计 ：看完&lt;a class=&#34;link&#34; href=&#34;http://cslabcms.nju.edu.cn/problem_solving/images/c/cc/The_C_Programming_Language_%282nd_Edition_Ritchie_Kernighan%29.pdf&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
     &gt;The C programming language (2nd Edition)&lt;/a&gt;，参考&lt;a class=&#34;link&#34; href=&#34;http://www.why.ink:8080/CPL/2023/&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
@@ -28,7 +43,7 @@
 &lt;li&gt;操作系统概述&lt;/li&gt;
 &lt;li&gt;学习使用linux&lt;/li&gt;
 &lt;/ol&gt;
-&lt;p&gt;学习记录&lt;/p&gt;
+&lt;p&gt;》学习记录&lt;/p&gt;
 &lt;table&gt;
 &lt;thead&gt;
 &lt;tr&gt;
@@ -61,7 +76,7 @@
 &lt;td style=&#34;text-align:center&#34;&gt;2024 - 08 -24&lt;/td&gt;
 &lt;td&gt;学习使用hugo搭建博客&lt;/td&gt;
 &lt;td&gt;目前在使用hugo server 指令时主页无法显示文章 ，在和主题模板比对时发现 模板头是使用的”&amp;mdash;“ 而hugo生成的是“+++”，并且语言风格也有差异，不知道是什么原因&lt;/td&gt;
-&lt;td style=&#34;text-align:center&#34;&gt;&lt;/td&gt;
+&lt;td style=&#34;text-align:center&#34;&gt;使用hugo server &amp;ndash;buildDrafts暂时解决了这个问题&lt;/td&gt;
 &lt;/tr&gt;
 &lt;/tbody&gt;
 &lt;/table&gt;
@@ -85,7 +100,7 @@
 &lt;td class=&#34;lntd&#34;&gt;
 &lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-fallback&#34; data-lang=&#34;fallback&#34;&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;hugo new content &amp;lt;SECTIONNAME&amp;gt;\&amp;lt;FILENAME&amp;gt;.&amp;lt;FORMAT&amp;gt;
 &lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;
-&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;e.g.hugo new content post/myFirstBlog/index.md 
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;e.g. hugo new content post/myFirstBlog/index.md 
 &lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;
 &lt;/div&gt;
 &lt;/div&gt;&lt;h2 id=&#34;12-hugo-server--d&#34;&gt;1.2 hugo server -D
