@@ -8,11 +8,11 @@
         <language>zh-cn</language>
         <copyright>Yannick</copyright>
         <lastBuildDate>Sun, 25 Aug 2024 00:17:41 +0800</lastBuildDate><atom:link href="https://yannick-995.github.io/post/index.xml" rel="self" type="application/rss+xml" /><item>
-        <title>Computer System Fundamentals Course Experiment Study Bote</title>
-        <link>https://yannick-995.github.io/p/computer-system-fundamentals-course-experiment-study-bote/</link>
+        <title>Computer System Fundamentals Course Experiment Study Note</title>
+        <link>https://yannick-995.github.io/p/computer-system-fundamentals-course-experiment-study-note/</link>
         <pubDate>Sun, 25 Aug 2024 00:17:41 +0800</pubDate>
         
-        <guid>https://yannick-995.github.io/p/computer-system-fundamentals-course-experiment-study-bote/</guid>
+        <guid>https://yannick-995.github.io/p/computer-system-fundamentals-course-experiment-study-note/</guid>
         <description></description>
         </item>
         <item>
@@ -55,7 +55,7 @@
 &lt;li&gt;git add . ：增加当前目录下的所有更改（包括新文件和修改过的文件）添加到暂存区&lt;/li&gt;
 &lt;li&gt;git commit -m &amp;ldquo;change commit&amp;rdquo;：将暂存区的更改提交到你的本地仓库 -m后面是你对本次提交更改所做的简单描述&lt;/li&gt;
 &lt;li&gt;git branch -M main：用于重命名当前分支为 main。这个命令通常用于将默认分支从 master 改为 main，因为 master 这个词在某些社区中被认为是有争议的，所以很多项目和组织选择使用 main 或其他名称作为默认分支。&lt;/li&gt;
-&lt;li&gt;git remote add origin git remote add origin &lt;a class=&#34;link&#34; href=&#34;https://github.com/username/repository.git&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+&lt;li&gt;git remote add origin &lt;a class=&#34;link&#34; href=&#34;https://github.com/username/repository.git&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
     &gt;https://github.com/username/repository.git&lt;/a&gt;：是一个Git命令，用于将一个远程仓库地址添加到你的本地Git仓库中。这里的 &lt;strong&gt;username&lt;/strong&gt; 应该替换成你的GitHub仓库。&lt;/li&gt;
 &lt;li&gt;git push -u origin main：用于将本地的 main 分支推送到远程仓库的 origin 仓库，如果已经配置了上游跟踪关系，并且只是想推送更改，可以简单的使用&lt;code&gt;git push&lt;/code&gt;&lt;/li&gt;
 &lt;/ol&gt;

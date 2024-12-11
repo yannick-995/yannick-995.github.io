@@ -8,11 +8,11 @@
         <language>zh-cn</language>
         <copyright>Yannick</copyright>
         <lastBuildDate>Sun, 25 Aug 2024 00:17:41 +0800</lastBuildDate><atom:link href="https://yannick-995.github.io/index.xml" rel="self" type="application/rss+xml" /><item>
-        <title>Computer System Fundamentals Course Experiment Study Bote</title>
-        <link>https://yannick-995.github.io/p/computer-system-fundamentals-course-experiment-study-bote/</link>
+        <title>Computer System Fundamentals Course Experiment Study Note</title>
+        <link>https://yannick-995.github.io/p/computer-system-fundamentals-course-experiment-study-note/</link>
         <pubDate>Sun, 25 Aug 2024 00:17:41 +0800</pubDate>
         
-        <guid>https://yannick-995.github.io/p/computer-system-fundamentals-course-experiment-study-bote/</guid>
+        <guid>https://yannick-995.github.io/p/computer-system-fundamentals-course-experiment-study-note/</guid>
         <description></description>
         </item>
         <item>
@@ -46,40 +46,40 @@
 &lt;/ol&gt;
 &lt;h1 id=&#34;学习记录&#34;&gt;学习记录
 &lt;/h1&gt;&lt;table&gt;
-&lt;thead&gt;
-&lt;tr&gt;
-&lt;th style=&#34;text-align:center&#34;&gt;日期&lt;/th&gt;
-&lt;th&gt;学习内容&lt;/th&gt;
-&lt;th&gt;学习感悟&lt;/th&gt;
-&lt;th style=&#34;text-align:center&#34;&gt;备注&lt;/th&gt;
-&lt;/tr&gt;
-&lt;/thead&gt;
-&lt;tbody&gt;
-&lt;tr&gt;
-&lt;td style=&#34;text-align:center&#34;&gt;未知&lt;/td&gt;
-&lt;td&gt;学习计算机基础实验，学习到PA0,简易调试器中打印寄存器理解可能不到位，扫描内存未实现，需要先实现表达式求值&lt;/td&gt;
-&lt;td&gt;感觉有点吃力，需要多看几遍才能理解要实现的功能，由于打印寄存器是最先实现的，前期理解不充分，导致错误实现&lt;/td&gt;
-&lt;td style=&#34;text-align:center&#34;&gt;&lt;/td&gt;
-&lt;/tr&gt;
-&lt;tr&gt;
-&lt;td style=&#34;text-align:center&#34;&gt;未知&lt;/td&gt;
-&lt;td&gt;计算机基础实验：表达式求值，表达式求值除了寄存器求值未实现，其余的都实现了（如何测试你的代码这个小节还未实现）&lt;/td&gt;
-&lt;td&gt;在表达式求值这个章节看了b站why老师的实验录播，发现可以把代码拷贝出来实现，但是拷贝出来发现需要整个拷贝，有一点多余，目前使用的是&lt;code&gt;#ifndef&lt;/code&gt;宏定义来选择程序是执行验证代码还是架构代码，后续的代码测试可能也会使用宏定义来单独调试测试部分&lt;/td&gt;
-&lt;td style=&#34;text-align:center&#34;&gt;&lt;/td&gt;
-&lt;/tr&gt;
-&lt;tr&gt;
-&lt;td style=&#34;text-align:center&#34;&gt;未知&lt;/td&gt;
-&lt;td&gt;C语言程序设计看到了结构体&lt;/td&gt;
-&lt;td&gt;目前只看了一部分，感觉需要第二遍看，有许多代码没有细看，后续不知道看lib代码对代码的书写有所提升，第一遍看译本，第二遍争取看原本，同时适应英语环境&lt;/td&gt;
-&lt;td style=&#34;text-align:center&#34;&gt;&lt;/td&gt;
-&lt;/tr&gt;
-&lt;tr&gt;
-&lt;td style=&#34;text-align:center&#34;&gt;2024 - 08 -24&lt;/td&gt;
-&lt;td&gt;学习使用hugo搭建博客&lt;/td&gt;
-&lt;td&gt;目前在使用hugo server 指令时主页无法显示文章 ，在和主题模板比对时发现 模板头是使用的”&amp;mdash;“ 而hugo生成的是“+++”，并且语言风格也有差异，不知道是什么原因&lt;/td&gt;
-&lt;td style=&#34;text-align:center&#34;&gt;使用hugo server &amp;ndash;buildDrafts暂时解决了这个问题&lt;/td&gt;
-&lt;/tr&gt;
-&lt;/tbody&gt;
+  &lt;thead&gt;
+      &lt;tr&gt;
+          &lt;th style=&#34;text-align: center&#34;&gt;日期&lt;/th&gt;
+          &lt;th&gt;学习内容&lt;/th&gt;
+          &lt;th&gt;学习感悟&lt;/th&gt;
+          &lt;th style=&#34;text-align: center&#34;&gt;备注&lt;/th&gt;
+      &lt;/tr&gt;
+  &lt;/thead&gt;
+  &lt;tbody&gt;
+      &lt;tr&gt;
+          &lt;td style=&#34;text-align: center&#34;&gt;未知&lt;/td&gt;
+          &lt;td&gt;学习计算机基础实验，学习到PA0,简易调试器中打印寄存器理解可能不到位，扫描内存未实现，需要先实现表达式求值&lt;/td&gt;
+          &lt;td&gt;感觉有点吃力，需要多看几遍才能理解要实现的功能，由于打印寄存器是最先实现的，前期理解不充分，导致错误实现&lt;/td&gt;
+          &lt;td style=&#34;text-align: center&#34;&gt;&lt;/td&gt;
+      &lt;/tr&gt;
+      &lt;tr&gt;
+          &lt;td style=&#34;text-align: center&#34;&gt;未知&lt;/td&gt;
+          &lt;td&gt;计算机基础实验：表达式求值，表达式求值除了寄存器求值未实现，其余的都实现了（如何测试你的代码这个小节还未实现）&lt;/td&gt;
+          &lt;td&gt;在表达式求值这个章节看了b站why老师的实验录播，发现可以把代码拷贝出来实现，但是拷贝出来发现需要整个拷贝，有一点多余，目前使用的是&lt;code&gt;#ifndef&lt;/code&gt;宏定义来选择程序是执行验证代码还是架构代码，后续的代码测试可能也会使用宏定义来单独调试测试部分&lt;/td&gt;
+          &lt;td style=&#34;text-align: center&#34;&gt;&lt;/td&gt;
+      &lt;/tr&gt;
+      &lt;tr&gt;
+          &lt;td style=&#34;text-align: center&#34;&gt;未知&lt;/td&gt;
+          &lt;td&gt;C语言程序设计看到了结构体&lt;/td&gt;
+          &lt;td&gt;目前只看了一部分，感觉需要第二遍看，有许多代码没有细看，后续不知道看lib代码对代码的书写有所提升，第一遍看译本，第二遍争取看原本，同时适应英语环境&lt;/td&gt;
+          &lt;td style=&#34;text-align: center&#34;&gt;&lt;/td&gt;
+      &lt;/tr&gt;
+      &lt;tr&gt;
+          &lt;td style=&#34;text-align: center&#34;&gt;2024 - 08 -24&lt;/td&gt;
+          &lt;td&gt;学习使用hugo搭建博客&lt;/td&gt;
+          &lt;td&gt;目前在使用hugo server 指令时主页无法显示文章 ，在和主题模板比对时发现 模板头是使用的”&amp;mdash;“ 而hugo生成的是“+++”，并且语言风格也有差异，不知道是什么原因&lt;/td&gt;
+          &lt;td style=&#34;text-align: center&#34;&gt;使用hugo server &amp;ndash;buildDrafts暂时解决了这个问题&lt;/td&gt;
+      &lt;/tr&gt;
+  &lt;/tbody&gt;
 &lt;/table&gt;
 </description>
         </item>
@@ -115,7 +115,7 @@
 &lt;li&gt;git add . ：增加当前目录下的所有更改（包括新文件和修改过的文件）添加到暂存区&lt;/li&gt;
 &lt;li&gt;git commit -m &amp;ldquo;change commit&amp;rdquo;：将暂存区的更改提交到你的本地仓库 -m后面是你对本次提交更改所做的简单描述&lt;/li&gt;
 &lt;li&gt;git branch -M main：用于重命名当前分支为 main。这个命令通常用于将默认分支从 master 改为 main，因为 master 这个词在某些社区中被认为是有争议的，所以很多项目和组织选择使用 main 或其他名称作为默认分支。&lt;/li&gt;
-&lt;li&gt;git remote add origin git remote add origin &lt;a class=&#34;link&#34; href=&#34;https://github.com/username/repository.git&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+&lt;li&gt;git remote add origin &lt;a class=&#34;link&#34; href=&#34;https://github.com/username/repository.git&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
     &gt;https://github.com/username/repository.git&lt;/a&gt;：是一个Git命令，用于将一个远程仓库地址添加到你的本地Git仓库中。这里的 &lt;strong&gt;username&lt;/strong&gt; 应该替换成你的GitHub仓库。&lt;/li&gt;
 &lt;li&gt;git push -u origin main：用于将本地的 main 分支推送到远程仓库的 origin 仓库，如果已经配置了上游跟踪关系，并且只是想推送更改，可以简单的使用&lt;code&gt;git push&lt;/code&gt;&lt;/li&gt;
 &lt;/ol&gt;
