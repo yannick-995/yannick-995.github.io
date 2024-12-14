@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+    <channel>
+        <title>Linux on Yannick</title>
+        <link>https://yannick-995.github.io/categories/linux/</link>
+        <description>Recent content in Linux on Yannick</description>
+        <generator>Hugo -- gohugo.io</generator>
+        <language>zh-cn</language>
+        <copyright>Yannick</copyright>
+        <lastBuildDate>Sat, 14 Dec 2024 20:53:27 +0800</lastBuildDate><atom:link href="https://yannick-995.github.io/categories/linux/index.xml" rel="self" type="application/rss+xml" /><item>
+        <title>Linux Driver Development Note</title>
+        <link>https://yannick-995.github.io/p/linux-driver-development-note/</link>
+        <pubDate>Sat, 14 Dec 2024 20:53:27 +0800</pubDate>
+        
+        <guid>https://yannick-995.github.io/p/linux-driver-development-note/</guid>
+        <description>&lt;h1 id=&#34;linux驱动的执行步骤最简步骤未引入动态分配设备号及设备树&#34;&gt;Linux驱动的执行步骤（最简步骤，未引入动态分配设备号及设备树）
+&lt;/h1&gt;&lt;ol&gt;
+&lt;li&gt;驱动加载：寄存器地址映射、初始化（时钟等）、注册驱动，模块加载一般使用&lt;code&gt;modprobe&lt;/code&gt;指令，使用该指令会调用&lt;code&gt;module_init(xxx_init)&lt;/code&gt;。&lt;/li&gt;
+&lt;li&gt;Linux中一切皆为文件，驱动中通过一个&lt;code&gt;file_operations&lt;/code&gt;结构体，对结构体中的这几个成员函数进行配置——open/read/write/release(与应用程序中的close相对应)。就可以在应用层通过open/read/write/close函数的调用就可以对驱动进行操作。&lt;/li&gt;
+&lt;li&gt;驱动卸载：取消映射，注销字符驱动，一般卸载模块使用&lt;code&gt;rmmod&lt;/code&gt;指令,使用该指令会调用&lt;code&gt;module_exit(xxx_exit)&lt;/code&gt;。&lt;/li&gt;
+&lt;/ol&gt;
+</description>
+        </item>
+        
+    </channel>
+</rss>

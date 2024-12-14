@@ -7,7 +7,15 @@
         <generator>Hugo -- gohugo.io</generator>
         <language>zh-cn</language>
         <copyright>Yannick</copyright>
-        <lastBuildDate>Thu, 22 Aug 2024 22:21:56 +0800</lastBuildDate><atom:link href="https://yannick-995.github.io/categories/index.xml" rel="self" type="application/rss+xml" /><item>
+        <lastBuildDate>Sat, 14 Dec 2024 20:53:27 +0800</lastBuildDate><atom:link href="https://yannick-995.github.io/categories/index.xml" rel="self" type="application/rss+xml" /><item>
+        <title>Linux</title>
+        <link>https://yannick-995.github.io/categories/linux/</link>
+        <pubDate>Sat, 14 Dec 2024 20:53:27 +0800</pubDate>
+        
+        <guid>https://yannick-995.github.io/categories/linux/</guid>
+        <description></description>
+        </item>
+        <item>
         <title>Notes</title>
         <link>https://yannick-995.github.io/categories/notes/</link>
         <pubDate>Thu, 22 Aug 2024 22:21:56 +0800</pubDate>
